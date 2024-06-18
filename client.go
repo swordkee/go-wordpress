@@ -400,12 +400,12 @@ func (c *Client) Get(ctx context.Context, url string, params interface{}, result
 
 // Update will update an item on the WordPress REST API.
 func (c *Client) Update(ctx context.Context, url string, content interface{}, result interface{}) (*Response, error) {
-	req, err := c.NewRequest("PUT", url, content)
+	req, err := c.NewRequest("POST", url, content)
 	if err != nil {
 		return nil, err
 	}
 
-	req.Header.Set("HTTP_X_HTTP_METHOD_OVERRIDE", "PUT")
+	req.Header.Set("HTTP_X_HTTP_METHOD_OVERRIDE", "POST")
 
 	return c.Do(ctx, req, &result)
 }
