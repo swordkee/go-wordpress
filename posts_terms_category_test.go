@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/robbiet480/go-wordpress"
+	"github.com\AndsGo\go-wordpress"
 )
 
 func cleanUpPostsTermsCategory(t *testing.T, postID int, id int) {

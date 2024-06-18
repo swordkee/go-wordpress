@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/dghubble/oauth1"
-	"github.com/robbiet480/go-wordpress"
+	"github.com\AndsGo\go-wordpress"
 )
 
 var config oauth1.Config
