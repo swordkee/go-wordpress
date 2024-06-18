@@ -1,4 +1,4 @@
-Source of this project:https://github.com/AndsGo/go-wordpress
+Source of this project:https://github.com/robbiet480/go-wordpress
 # go-wordpress
 A Go client library for the [Wordpress REST API](https://developer.wordpress.org/rest-api/)
 
