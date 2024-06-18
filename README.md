@@ -1,13 +1,10 @@
 # go-wordpress
-[![GoDoc](https://godoc.org/github.com/robbiet480/go-wordpress?status.svg)](https://godoc.org/github.com/robbiet480/go-wordpress)
-
 A Go client library for the [Wordpress REST API](https://developer.wordpress.org/rest-api/)
-
 
 ## Installation
 
 ```bash
-go get github.com/robbiet480/go-wordpress
+go get github.com/AndsGo/go-wordpress
 ```
 
 ## Usage
