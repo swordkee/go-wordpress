@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com\AndsGo\go-wordpress"
+	"github.com/swordkee/go-wordpress"
 )
 
 func main() {

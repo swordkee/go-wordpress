@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com\AndsGo\go-wordpress"
+	"github.com/swordkee/go-wordpress"
 )
 
 func factoryTermsTag() *wordpress.Term {

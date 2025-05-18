@@ -2,10 +2,9 @@ package wordpress_test
 
 import (
 	"context"
+	"github.com/swordkee/go-wordpress"
 	"net/http"
 	"testing"
-
-	"github.com\AndsGo\go-wordpress"
 )
 
 func cleanUpPostsTermsCategory(t *testing.T, postID int, id int) {

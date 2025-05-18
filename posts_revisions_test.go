@@ -3,11 +3,10 @@ package wordpress_test
 import (
 	"context"
 	"fmt"
+	"github.com/swordkee/go-wordpress"
 	"net/http"
 	"testing"
 	"time"
-
-	"github.com\AndsGo\go-wordpress"
 )
 
 func getLatestRevisionForPost(t *testing.T, ctx context.Context, post *wordpress.Post) *wordpress.Revision {

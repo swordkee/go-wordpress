@@ -3,11 +3,10 @@ package wordpress_test
 import (
 	"context"
 	"fmt"
+	"github.com/swordkee/go-wordpress"
 	"log"
 	"net/http"
 	"testing"
-
-	"github.com\AndsGo\go-wordpress"
 )
 
 func factoryPost() wordpress.Post {
